@@ -42,8 +42,6 @@ server = pywsgi.WSGIServer(("", 8000), application, handler_class=WebSocketHandl
 server.serve_forever();
 
 
-
-
 # static files are not accessable by server
 
 #import os
